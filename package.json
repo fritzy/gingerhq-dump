@@ -1,0 +1,26 @@
+{
+  "name": "gingerhq-dump",
+  "version": "1.0.0",
+  "description": "Dump your gingerhq forum into markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Fritz",
+  "license": "MIT",
+  "bin": {
+    "gh-watchmyself": "./cli.js"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "cli-spinner": "^0.2.4",
+    "js-yaml": "^3.5.2",
+    "moment": "^2.11.2",
+    "optimist": "^0.6.1",
+    "promise-each": "^2.2.0",
+    "read": "^1.0.7",
+    "request": "^2.69.0",
+    "request-promise": "^2.0.0",
+    "slug": "^0.9.1"
+  }
+}
